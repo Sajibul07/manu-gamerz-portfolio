@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>404 Page Not Found | YourName</title>
+    <meta name="description" content="This page could not be found. Go back to the YourName portfolio home page.">
+    <meta name="robots" content="noindex, follow">
+    <meta name="theme-color" content="#FFC400">
+    <link rel="icon" href="/assets/img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/404.css">
+</head>
+
+<body>
+    <div class="blob b1" aria-hidden="true"></div>
+    <div class="blob b2" aria-hidden="true"></div>
+    <div class="blob b3" aria-hidden="true"></div>
+
+    <header>
+        <nav class="glass" aria-label="Main navigation">
+            <a class="brand" href="https://sajibul07.github.io/manu-gamerz-portfolio/" aria-label="YourName home">
+                <img src="assets/img/logo.png" alt="YourName Minecraft-style logo" width="38" height="38">
+                <span>Manu Gamerz</span>
+            </a>
+            <a class="home-link" href="https://sajibul07.github.io/manu-gamerz-portfolio/">Home</a>
+        </nav>
+    </header>
+
+    <main class="stage">
+        <section class="glass liquid card" aria-labelledby="title">
+            <div class="hearts" aria-label="Lives left: 0 out of 3">
+                <span class="heart">&#10084;</span><span class="heart">&#10084;</span><span
+                    class="heart">&#10084;</span>
+            </div>
+
+            <p class="code" aria-hidden="true"><span>4</span><span class="face"><img src="assets/img/logo.png" alt=""
+                        width="256" height="256"></span><span>4</span></p>
+
+            <h1 id="title">Game over. Level not found.</h1>
+            <p class="msg">The page you are looking for does not exist, or it moved to another world. Respawn at the
+                home page and keep playing.</p>
+
+            <div class="respawn" role="status" aria-live="polite">
+                <div class="lvl"><span id="rtext">RESPAWN IN 10</span><span id="rstate">AUTO</span></div>
+                <div class="bar"><i id="rbar"></i></div>
+            </div>
+
+            <div class="cta">
+                <a class="btn" id="go" href="https://sajibul07.github.io/manu-gamerz-portfolio/">Respawn now</a>
+                <button class="btn alt" id="pause" type="button" aria-pressed="false">Pause timer</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>© <span id="yr">2026</span> Manu Gamerz. All rights reserved. <a target="_blank"
+            href="https://sajibul07.github.io/sajibul-middya-portfolio/">Website Dev by Sajibul</a> </footer>
+
+    <script src="js/404.js"></script>
+</body>
+
+</html>
